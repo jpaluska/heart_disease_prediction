@@ -34,7 +34,7 @@ Feature engineering was also applied by adding polynomial interaction terms, whi
 
 ## Model Interpretation
 
-SHAP (SHapley Additive exPlanations) values were used to interpret the final tuned SVM model. This provided insights into which features were most important in predicting heart disease.
+Feature importance was used to interpret the final tuned SVM model. This provided insights into which features were most important in predicting heart disease.
 
 ## Results
 
