@@ -40,6 +40,9 @@ Feature importance was used to interpret the final tuned SVM model. This provide
 
 The final tuned SVM model with polynomial features achieved an accuracy of 94% on the test set, even with added noise. The model's performance was validated using cross-validation with data shuffling.
 
+It's important to note that overfitting may still be a concern in this project. The high accuracy achieved by the models, especially on the training data, should be interpreted with caution. 
+Further validation of new, unseen data would be necessary to assess the models' true generalization capability.
+
 ## Usage
 
 The trained model is packaged and can be used to predict the risk of heart disease for new patients. A sample function `predict_heart_disease` is provided, which takes in patient attributes and returns the predicted risk.
